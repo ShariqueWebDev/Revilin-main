@@ -12,7 +12,7 @@
 .subcategory_container .sub_categories .category_content{
     display: flex;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     /* border: 1px solid black; */
@@ -22,6 +22,8 @@
     width: 100%;
     position: relative;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px ;
 }
 .subcategory_container .sub_categories .category_card .cat_img{
     width: 100%;
@@ -78,3 +80,15 @@
     white-space: nowrap;;
     overflow: hidden;
 }
+
+@media (max-width: 480px){
+    .subcategory_container .sub_categories .category_card .category_subtitle{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .subcategory_container .sub_categories .category_card{
+        width: 300px;
+    }
+}
+
